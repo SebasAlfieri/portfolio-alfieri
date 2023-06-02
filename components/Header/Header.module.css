@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  height: fit-content;
+  width: calc(1125px / var(--retina-value));
+  height: auto;
+  margin: 0 auto;
+  margin-top: calc(87px / var(--retina-value));
+  z-index: 10;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0 calc(44px / var(--retina-value));
+  align-items: center;
+
+  &__spotify {
+    width: calc(422px / var(--retina-value));
+    height: calc(63px / var(--retina-value));
+
+    & > img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+  }
+
+  &__login {
+    width: calc(1125px / var(--retina-value));
+    height: auto;
+    margin: 0 auto;
+    margin-top: calc(87px / var(--retina-value));
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc(89px / var(--retina-value));
+  }
+
+  &__mastercard {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.mastercard,
+.mastercard > span {
+  width: calc(416px / var(--retina-value));
+  height: calc(85px / var(--retina-value));
+  display: block;
+
+  & > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+.loginMastercard,
+.loginMastercard > span {
+  width: calc(818px / var(--retina-value));
+  height: calc(167px / var(--retina-value));
+  display: block;
+
+  & > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
