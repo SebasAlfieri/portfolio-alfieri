@@ -8,7 +8,6 @@ export default function Home() {
       <Header />
       <Contact />
       <Footer />
-      <div></div>
     </main>
   );
 }

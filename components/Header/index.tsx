@@ -1,7 +1,8 @@
-import React, { FC } from "react";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import s from "./Header.module.css";
+import React, { FC } from 'react';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import s from './Header.module.css';
+// import { subtitle } from '@/lib/variants.tsx';
 
 interface HeaderProps {
   login?: boolean;
@@ -9,22 +10,59 @@ interface HeaderProps {
 
 const Header = () => {
   return (
-    <motion.header
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1 } }}
-      className={s.header}
-    >
-      <div className={s.header__spotify}>
-        <Image
-          src="/images/logo-spotify.png"
-          alt="bySpotify"
-          width={422}
-          height={63}
-        />
+    <div className={s.HeaderMainContainer} id="header">
+      <div className={s.HeaderItemsContainer}>
+        <div className={s.HeaderItemsText}>
+          <motion.h1
+            className={s.HeaderTitleTop}
+            initial={{ opacity: 0 }}
+            animate={{ y: [-1000, 0], opacity: 1 }}>
+            My name
+          </motion.h1>
+          <h1 className={s.HeaderTitleBot}>
+            is
+            <span className={s.TitleBotSpan}></span>
+            <span className={s.TitleBotSpan}>Sebastian</span>
+          </h1>
+          <motion.h3
+            className={s.HeaderSubtitle}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 2.8 }}>
+            I'm a junior developer highly motivated to create and grow.
+          </motion.h3>
+          <motion.a
+            className={s.HeaderContact}
+            href="#contact"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 3.8 }}>
+            Contact me
+          </motion.a>
+        </div>
+        <div className={s.HeaderKnowledges}>
+          <div className="KnowledgeItem" style={{ background: '#FC8E3F', color: 'black' }}>
+            HTML
+          </div>
+          <div className="KnowledgeItem" style={{ background: '#FE5A01', color: 'white' }}>
+            CSS
+          </div>
+          <div className="KnowledgeItem" style={{ background: '#222021', color: 'white' }}>
+            JavaScript
+          </div>
+          <div className="KnowledgeItem" style={{ background: '#E4E4E4', color: 'black' }}>
+            React JS
+          </div>
+        </div>
       </div>
-
-      <div className={s.header__mastercard}></div>
-    </motion.header>
+      <motion.div
+        animate={{ y: [-5000, 0] }}
+        transition={{ delay: 1, duration: 2 }}
+        style={{ backgroundColor: 'red' }}
+        className={s.HeaderImgContainer}>
+        <Image width={600} height={600} alt="logo" src="/images/iconHeader.png" />
+      </motion.div>
+    </div>
   );
 };
 

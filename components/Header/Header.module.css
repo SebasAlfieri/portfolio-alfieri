@@ -1,73 +1,213 @@
-.header {
-  width: 100%;
-  height: fit-content;
-  width: calc(1125px / var(--retina-value));
-  height: auto;
-  margin: 0 auto;
-  margin-top: calc(87px / var(--retina-value));
-  z-index: 10;
+.HeaderMainContainer {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  padding: 0 calc(44px / var(--retina-value));
-  align-items: center;
+  padding: 50px 50px;
+  padding-bottom: 10px;
+}
 
-  &__spotify {
-    width: calc(422px / var(--retina-value));
-    height: calc(63px / var(--retina-value));
-
-    & > img {
-      width: 100%;
-      height: 100%;
-
-      object-fit: cover;
-    }
+@media (min-width: 768px) {
+  .HeaderMainContainer {
+    padding: 50px 50px;
   }
+}
 
-  &__login {
-    width: calc(1125px / var(--retina-value));
-    height: auto;
-    margin: 0 auto;
-    margin-top: calc(87px / var(--retina-value));
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: calc(89px / var(--retina-value));
+@media (min-width: 1400px) {
+  .HeaderMainContainer {
+    padding: 100px 100px;
   }
+}
 
-  &__mastercard {
+.HeaderItemsContainer {
+  height: 650px;
+}
+
+@media (min-width: 768px) {
+  .HeaderItemsContainer {
+    height: 425px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderItemsContainer {
+    height: 600px;
+  }
+}
+
+.HeaderItemsText {
+}
+
+.HeaderTitleTop {
+  font-size: 3rem;
+  font-weight: 100;
+  width: fit-content;
+}
+
+@media (min-width: 768px) {
+  .HeaderTitleTop {
+    font-size: 4rem;
+    font-weight: 100;
     width: fit-content;
-    height: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderTitleTop {
+    font-size: 7rem;
+  }
+}
+
+.HeaderTitleBot {
+  font-size: 3rem;
+  font-weight: 100;
+  width: fit-content;
+}
+
+@media (min-width: 768px) {
+  .HeaderTitleBot {
+    font-size: 4rem;
+    font-weight: 100;
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderTitleBot {
+    font-size: 7rem;
+  }
+}
+
+.TitleBotSpan {
+  font-weight: 600;
+}
+
+.HeaderSubtitle {
+  font-size: 0.9rem;
+  margin-left: 0;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .HeaderSubtitle {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderSubtitle {
+    font-size: 2rem;
+    margin-bottom: 80px;
+    width: 650px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .HeaderSubtitle {
+    font-size: 2rem;
+    margin-bottom: 80px;
+    width: 800px;
+  }
+}
+
+.HeaderContact {
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #fe5a01;
+  color: white;
+}
+
+.HeaderContact:hover {
+  background-color: #fc8e3f;
+}
+
+@media (min-width: 768px) {
+  .HeaderContact {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderContact {
+    font-size: 1.6rem;
+    padding: 20px;
+    border-radius: 35px;
+  }
+}
+
+.HeaderKnowledges {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .HeaderKnowledges {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .HeaderKnowledges {
+    width: 600px;
+  }
+}
+
+.HeaderImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: 50%;
+
+  img {
+  }
+}
+
+@media (min-width: 768px) {
+  .HeaderImgContainer {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 300px;
+    height: 300px;
+    left: 60vw;
+    align-self: center;
   }
 }
 
-.mastercard,
-.mastercard > span {
-  width: calc(416px / var(--retina-value));
-  height: calc(85px / var(--retina-value));
-  display: block;
-
-  & > svg {
-    width: 100%;
-    height: 100%;
-    display: block;
+@media (min-width: 1024px) {
+  .HeaderImgContainer {
+    display: flex;
+    width: 450px;
+    height: 450px;
+    left: 60vw;
   }
 }
 
-.loginMastercard,
-.loginMastercard > span {
-  width: calc(818px / var(--retina-value));
-  height: calc(167px / var(--retina-value));
-  display: block;
+@media (min-width: 1400px) {
+  .HeaderImgContainer {
+    width: 550px;
+    height: 550px;
+  }
+}
 
-  & > svg {
-    width: 100%;
-    height: 100%;
-    display: block;
+@media (min-width: 1600px) {
+  .HeaderImgContainer {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+.image {
+  display: flex;
+  background-color: red;
+  width: 2000px;
+  width: fit-content;
+
+  img {
+    width: 600px;
   }
 }
