@@ -259,12 +259,12 @@
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\app\\layout": [
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\app\\layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -272,7 +272,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -280,7 +280,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -288,7 +288,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -296,7 +296,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -304,7 +304,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -312,15 +312,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -328,7 +320,15 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -336,7 +336,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -344,7 +344,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -352,7 +352,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -360,7 +360,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -368,7 +368,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -376,7 +376,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -384,7 +384,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -392,15 +392,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -408,7 +400,15 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -416,7 +416,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -424,7 +424,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -432,7 +432,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -440,7 +440,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -448,7 +448,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -456,7 +456,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -464,7 +464,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -472,15 +472,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -488,7 +480,15 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -496,7 +496,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -504,7 +504,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -512,7 +512,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -520,7 +520,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -528,7 +528,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -536,7 +536,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -544,7 +544,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -552,7 +552,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -560,7 +560,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -568,7 +568,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -576,7 +576,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -584,7 +584,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -592,7 +592,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -600,7 +600,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -608,7 +608,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -616,7 +616,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -624,7 +624,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -632,7 +632,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -640,7 +640,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -648,7 +648,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -656,7 +656,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -664,7 +664,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -672,7 +672,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -680,7 +680,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -688,7 +688,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -696,15 +696,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -712,7 +704,15 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -720,7 +720,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -728,7 +728,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -736,7 +736,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -744,7 +744,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -752,7 +752,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -760,15 +760,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -776,7 +768,15 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -784,7 +784,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -792,7 +792,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -800,7 +800,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -808,7 +808,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -816,7 +816,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -824,7 +824,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -832,7 +832,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -840,7 +840,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -848,7 +848,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -856,7 +856,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -864,7 +864,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -872,7 +872,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -880,7 +880,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -888,7 +888,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -896,7 +896,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -904,7 +904,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -912,7 +912,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -920,7 +920,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -928,7 +928,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -936,7 +936,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\app\\page.tsx": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\app\\page.tsx": {
       "id": "(app-client)/./app/page.tsx",
       "name": "*",
       "chunks": [
@@ -944,7 +944,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\app\\page.tsx#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\app\\page.tsx#": {
       "id": "(app-client)/./app/page.tsx",
       "name": "",
       "chunks": [
@@ -952,7 +952,7 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\app\\page.tsx#default": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\app\\page.tsx#default": {
       "id": "(app-client)/./app/page.tsx",
       "name": "default",
       "chunks": [
@@ -960,14 +960,14 @@
       ],
       "async": false
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\styles\\globals.css#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\styles\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "L:\\AAProyectos\\Decentes\\portfolio-nextjs\\node_modules\\next\\font\\local\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"./fonts/Interstate-Regular.woff2\",\"weight\":\"normal\",\"style\":\"normal\"},{\"path\":\"./fonts/Interstate-Bold.woff2\",\"weight\":\"bold\",\"style\":\"normal\"}],\"display\":\"swap\",\"variable\":\"--font-interstate\",\"preload\":true}],\"variableName\":\"Interstate\"}#": {
+    "L:\\AAProyectos\\Decentes\\portfolio-alfieri\\node_modules\\next\\font\\local\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":[{\"path\":\"./fonts/Interstate-Regular.woff2\",\"weight\":\"normal\",\"style\":\"normal\"},{\"path\":\"./fonts/Interstate-Bold.woff2\",\"weight\":\"bold\",\"style\":\"normal\"}],\"display\":\"swap\",\"variable\":\"--font-interstate\",\"preload\":true}],\"variableName\":\"Interstate\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [

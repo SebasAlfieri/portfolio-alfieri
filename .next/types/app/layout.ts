@@ -1,4 +1,4 @@
-// File: L:\AAProyectos\Decentes\portfolio-nextjs\app\layout.tsx
+// File: L:\AAProyectos\Decentes\portfolio-alfieri\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
