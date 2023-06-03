@@ -64,10 +64,11 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--f-chakra);
 
   /* iPhone styles */
   @supports (-webkit-touch-callout: none) {
@@ -132,7 +133,7 @@ button {
   outline: none;
 }
 
-[class*="--round"] {
+[class*='--round'] {
   border-radius: 100%;
 }
 

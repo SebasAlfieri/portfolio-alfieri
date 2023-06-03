@@ -2,7 +2,9 @@ import React, { FC } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import s from './Header.module.css';
-// import { subtitle } from '@/lib/variants.tsx';
+import { subtitle } from '@/lib/variants';
+import { KnowledgeItem } from '@/components';
+import { dataset } from '@/lib/dataset';
 
 interface HeaderProps {
   login?: boolean;
@@ -10,7 +12,7 @@ interface HeaderProps {
 
 const Header = () => {
   return (
-    <div className={s.HeaderMainContainer} id="header">
+    <motion.header className={s.HeaderMainContainer} id="header">
       <div className={s.HeaderItemsContainer}>
         <div className={s.HeaderItemsText}>
           <motion.h1
@@ -19,11 +21,14 @@ const Header = () => {
             animate={{ y: [-1000, 0], opacity: 1 }}>
             My name
           </motion.h1>
-          <h1 className={s.HeaderTitleBot}>
+          <motion.h1
+            className={s.HeaderTitleBot}
+            initial="hidden"
+            animate="visible"
+            variants={subtitle}>
             is
-            <span className={s.TitleBotSpan}></span>
-            <span className={s.TitleBotSpan}>Sebastian</span>
-          </h1>
+            <span className={s.TitleBotSpan}> Sebastian</span>
+          </motion.h1>
           <motion.h3
             className={s.HeaderSubtitle}
             initial={{ opacity: 0 }}
@@ -41,18 +46,9 @@ const Header = () => {
           </motion.a>
         </div>
         <div className={s.HeaderKnowledges}>
-          <div className="KnowledgeItem" style={{ background: '#FC8E3F', color: 'black' }}>
-            HTML
-          </div>
-          <div className="KnowledgeItem" style={{ background: '#FE5A01', color: 'white' }}>
-            CSS
-          </div>
-          <div className="KnowledgeItem" style={{ background: '#222021', color: 'white' }}>
-            JavaScript
-          </div>
-          <div className="KnowledgeItem" style={{ background: '#E4E4E4', color: 'black' }}>
-            React JS
-          </div>
+          {dataset.Knowledges.map((item) => (
+            <KnowledgeItem title={item.title} background={item.background} color={item.color} />
+          ))}
         </div>
       </div>
       <motion.div
@@ -62,7 +58,7 @@ const Header = () => {
         className={s.HeaderImgContainer}>
         <Image width={600} height={600} alt="logo" src="/images/iconHeader.png" />
       </motion.div>
-    </div>
+    </motion.header>
   );
 };
 

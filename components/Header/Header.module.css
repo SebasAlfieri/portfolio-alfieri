@@ -141,17 +141,16 @@
   display: flex;
   flex-wrap: wrap;
   width: 300px;
-}
 
-@media (min-width: 768px) {
-  .HeaderKnowledges {
+  @media (min-width: 768px) {
     margin-top: 60px;
   }
-}
 
-@media (min-width: 1400px) {
-  .HeaderKnowledges {
+  @media (min-width: 1400px) {
     width: 600px;
+  }
+
+  &__knowledgeItems {
   }
 }
 
@@ -163,9 +162,6 @@
   width: 450px;
   height: 450px;
   left: 50%;
-
-  img {
-  }
 }
 
 @media (min-width: 768px) {
