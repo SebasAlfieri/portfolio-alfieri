@@ -17,32 +17,34 @@
     width: 1000px;
   }
 
+  @media (--ultraLarge) {
+    gap: 100px;
+    width: 1400px;
+  }
+
   &__item {
     height: fit-content;
     width: fit-content;
 
     &__itemA {
       composes: mainContainer__item;
-      margin-top: -50px;
+      margin-top: 50px;
 
       @media (--large) {
-        margin-top: unset;
+        margin-top: -100px;
       }
     }
 
     &__itemB {
       composes: mainContainer__item;
-      margin-top: 50px;
+      margin-top: -50px;
       @media (--large) {
-        margin-top: 50px;
+        margin-top: -50px;
       }
     }
 
     &__itemC {
       composes: mainContainer__item;
-      @media (--large) {
-        margin-top: 100px;
-      }
     }
   }
 }
