@@ -18,10 +18,19 @@ export type KnowledgeItem = {
 
 export type DataSetType = {
   Knowledges: any[];
+  Projects: any[];
 };
 
 export type Knowledges = {
   title: string;
   background: string;
   color: string;
+};
+
+export type Projects = {
+  title: string;
+  img: string;
+  link: string;
+  description: string;
+  languages: string;
 };

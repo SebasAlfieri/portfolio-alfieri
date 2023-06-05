@@ -28,5 +28,39 @@ export const dataset: DataSetType = {
       color: 'white'
     },
     { title: 'TypeScript', background: '#2E72BC', color: 'white' }
+  ],
+  Projects: [
+    {
+      title: 'Huggies Freelance',
+      img: '/images/huggies.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    },
+    {
+      title: 'Todito',
+      img: '/images/huggies.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    },
+    {
+      title: 'Huggies Freelance',
+      img: '/images/huggies.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    },
+    {
+      title: 'Huggies Freelance',
+      img: '/images/huggies.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    }
   ]
 };
