@@ -32,31 +32,47 @@ export const dataset: DataSetType = {
   Projects: [
     {
       title: 'Huggies Freelance',
-      img: '/images/huggies.jpg',
+      img: '/images/todito.jpg',
       link: 'https://mixeatuhumor.withspotify.com/login',
       description:
         'A freelacer for Huggies where i worked as front end developer together with a back end developer',
       languages: 'React Js - Next Js'
     },
     {
-      title: 'Todito',
-      img: '/images/huggies.jpg',
+      title: '2',
+      img: '/images/todito.jpg',
       link: 'https://mixeatuhumor.withspotify.com/login',
       description:
         'A freelacer for Huggies where i worked as front end developer together with a back end developer',
       languages: 'React Js - Next Js'
     },
     {
-      title: 'Huggies Freelance',
-      img: '/images/huggies.jpg',
+      title: '3',
+      img: '/images/todito.jpg',
       link: 'https://mixeatuhumor.withspotify.com/login',
       description:
         'A freelacer for Huggies where i worked as front end developer together with a back end developer',
       languages: 'React Js - Next Js'
     },
     {
-      title: 'Huggies Freelance',
-      img: '/images/huggies.jpg',
+      title: '4',
+      img: '/images/todito.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    },
+    {
+      title: '5',
+      img: '/images/todito.jpg',
+      link: 'https://mixeatuhumor.withspotify.com/login',
+      description:
+        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
+      languages: 'React Js - Next Js'
+    },
+    {
+      title: '6',
+      img: '/images/todito.jpg',
       link: 'https://mixeatuhumor.withspotify.com/login',
       description:
         'A freelacer for Huggies where i worked as front end developer together with a back end developer',

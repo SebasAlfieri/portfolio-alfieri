@@ -34,3 +34,11 @@ export type Projects = {
   description: string;
   languages: string;
 };
+
+export type ProjectProps = {
+  title: string;
+  link: string;
+  img: string;
+  description: string;
+  languages: string;
+};
