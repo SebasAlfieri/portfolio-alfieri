@@ -43,7 +43,6 @@ const ProjectsContainer = () => {
       )}
       {!isMobile && (
         <>
-          {' '}
           {dataset.Projects.map((item, index) => {
             if (index % 3 === 0) {
               return (

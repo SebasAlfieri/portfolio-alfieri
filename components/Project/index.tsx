@@ -2,6 +2,7 @@ import React, { FC, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 import s from './Project.module.css';
+
 import { ProjectProps } from '@/types/model';
 import useIsMobile from '@/hooks/use-is-mobile';
 
@@ -19,10 +20,10 @@ const Project: FC<ProjectProps> = ({ title, link, description, languages, img })
         onClick={() => handleClickViewPlaylist(link)}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        initial={{ opacity: 0, y: 100 }}
+        initial={{ opacity: 0, x: -50 }}
         whileInView={{
           opacity: 1,
-          y: 0,
+          x: 0,
           transition: { delay: 0.4 }
         }}>
         <div className={s.mainContainer__projectDescription}>
