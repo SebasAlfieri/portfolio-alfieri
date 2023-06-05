@@ -1,209 +1,140 @@
-.HeaderMainContainer {
+.headerMainContainer {
   display: flex;
-  padding: 50px 50px;
   padding-bottom: 10px;
-}
+  position: relative;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
 
-@media (min-width: 768px) {
-  .HeaderMainContainer {
-    padding: 50px 50px;
+  .headerItemsContainer {
+    height: fit-content;
+    height: 100vh;
+    padding: 10% 5%;
+
+    @media (--small) {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media (--large) {
+      height: 100vh;
+      width: 80%;
+
+      padding: unset;
+    }
+  }
+
+  &__welcome {
+    display: none;
+    background-color: rgb(97, 35, 212);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    left: 0;
   }
 }
 
-@media (min-width: 1400px) {
-  .HeaderMainContainer {
-    padding: 100px 100px;
-  }
-}
-
-.HeaderItemsContainer {
-  height: 650px;
-}
-
-@media (min-width: 768px) {
-  .HeaderItemsContainer {
-    height: 425px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .HeaderItemsContainer {
-    height: 600px;
-  }
-}
-
-.HeaderItemsText {
-}
-
-.HeaderTitleTop {
+.headerTitle {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 100 !important;
   width: fit-content;
-}
+  line-height: 1.3;
 
-@media (min-width: 768px) {
-  .HeaderTitleTop {
+  @media (--small) {
     font-size: 4rem;
     font-weight: 100;
     width: fit-content;
   }
-}
 
-@media (min-width: 1400px) {
-  .HeaderTitleTop {
+  @media (--extraExtraLarge) {
+    font-size: 5rem;
+  }
+
+  @media (--ultraLarge) {
     font-size: 7rem;
   }
-}
 
-.HeaderTitleBot {
-  font-size: 3rem;
-  font-weight: 100;
-  width: fit-content;
-}
-
-@media (min-width: 768px) {
-  .HeaderTitleBot {
-    font-size: 4rem;
-    font-weight: 100;
-    width: fit-content;
+  span {
+    font-weight: 600;
   }
 }
 
-@media (min-width: 1400px) {
-  .HeaderTitleBot {
-    font-size: 7rem;
-  }
-}
-
-.TitleBotSpan {
-  font-weight: 600;
-}
-
-.HeaderSubtitle {
+.headerSubtitle {
   font-size: 0.9rem;
   margin-left: 0;
   margin-top: 25px;
   margin-bottom: 50px;
-}
 
-@media (min-width: 768px) {
-  .HeaderSubtitle {
+  @media (--medium) {
     margin-top: 0;
-    margin-left: 15px;
-    margin-bottom: 40px;
   }
-}
 
-@media (min-width: 1400px) {
-  .HeaderSubtitle {
-    font-size: 2rem;
-    margin-bottom: 80px;
-    width: 650px;
+  @media (--extraExtraLarge) {
+    font-size: 1.5rem;
+    width: fit-content;
   }
-}
 
-@media (min-width: 1600px) {
-  .HeaderSubtitle {
+  @media (--ultraLarge) {
     font-size: 2rem;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     width: 800px;
   }
+
+  a {
+    text-decoration: underline;
+    color: var(--orange);
+    white-space: nowrap;
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--softOrange);
+      }
+    }
+  }
 }
 
-.HeaderContact {
+.headerContact {
   padding: 15px;
   text-decoration: none;
   border-radius: 25px;
-  background-color: #fe5a01;
-  color: white;
-}
+  background-color: var(--orange);
+  color: white !important;
 
-.HeaderContact:hover {
-  background-color: #fc8e3f;
-}
-
-@media (min-width: 768px) {
-  .HeaderContact {
+  @media (--medium) {
     padding: 10px;
   }
-}
 
-@media (min-width: 1400px) {
-  .HeaderContact {
+  @media (--extraExtraLarge) {
     font-size: 1.6rem;
     padding: 20px;
     border-radius: 35px;
   }
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--softOrange);
+    }
+  }
 }
 
-.HeaderKnowledges {
-  margin-top: 200px;
+.headerKnowledges {
   display: flex;
   flex-wrap: wrap;
   width: 300px;
-
-  @media (min-width: 768px) {
-    margin-top: 60px;
-  }
-
-  @media (min-width: 1400px) {
-    width: 600px;
-  }
-
-  &__knowledgeItems {
-  }
-}
-
-.HeaderImgContainer {
-  display: flex;
-  justify-content: center;
+  height: fit-content;
   align-items: center;
-  position: absolute;
-  width: 450px;
-  height: 450px;
-  left: 50%;
-}
+  margin-top: 50px;
 
-@media (min-width: 768px) {
-  .HeaderImgContainer {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    left: 60vw;
-    align-self: center;
+  @media (--large) {
+    width: 800px;
   }
 }
 
-@media (min-width: 1024px) {
-  .HeaderImgContainer {
-    display: flex;
-    width: 450px;
-    height: 450px;
-    left: 60vw;
-  }
-}
-
-@media (min-width: 1400px) {
-  .HeaderImgContainer {
-    width: 550px;
-    height: 550px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .HeaderImgContainer {
-    width: 700px;
-    height: 700px;
-  }
-}
-
-.image {
-  display: flex;
-  background-color: red;
-  width: 2000px;
+.contactButtonAnimation {
   width: fit-content;
-
-  img {
-    width: 600px;
-  }
+  height: fit-content;
 }

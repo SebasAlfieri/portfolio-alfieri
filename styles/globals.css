@@ -1,14 +1,8 @@
 /* root vars */
 :root {
   /* Definir todas las variables de color acá */
-  --white: #ffffff;
-  --black: #000000;
-  --black-70: rgba(0, 0, 0, 0.7);
-  --darker-orange: #cf5a15;
-  --dark-orange: #d5652c;
-  --orange: #f79f00;
-  --red: #e10000;
-  --grey: #999;
+  --orange: #fe5a01;
+  --softOrange: #fc8e3f;
 
   /* Retina pixel ratio */
   --retina-value: 3;

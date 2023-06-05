@@ -3,12 +3,17 @@
   margin: 5px 5px;
   border-radius: 5px;
   width: fit-content;
+  height: fit-content;
   font-weight: 500;
 
-  @media (min-width: 1400px) {
+  @media (--extraExtraLarge) {
     padding: 15px 35px;
     margin: 5px 5px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 15px;
+  }
+
+  @media (--ultraLarge) {
+    font-size: 2rem;
   }
 }

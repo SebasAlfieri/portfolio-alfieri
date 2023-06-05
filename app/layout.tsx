@@ -13,7 +13,7 @@ const Chakra = localFont({
   src: [
     {
       path: './fonts/ChakraPetch-Light.woff',
-      weight: 'normal',
+      weight: '100',
       style: 'normal'
     },
     {

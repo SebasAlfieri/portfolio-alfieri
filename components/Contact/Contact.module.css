@@ -5,7 +5,7 @@
   height: fit-content;
   margin-top: -70px;
 
-  @media (min-width: 768px) {
+  @media (--medium) {
     margin-top: 0;
   }
 
@@ -15,7 +15,7 @@
     margin-left: 0;
     font-size: 2rem;
     font-weight: 600;
-    @media (min-width: 768px) {
+    @media (--medium) {
       justify-content: flex-start;
       margin-left: 50px;
     }
@@ -32,7 +32,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
-    @media (min-width: 768px) {
+    @media (--medium) {
       width: 400px;
       height: 200px;
     }
@@ -46,7 +46,7 @@
       width: 250px;
       margin-top: -40px;
 
-      @media (min-width: 768px) {
+      @media (--medium) {
         width: 700px;
         margin-top: 10px;
       }
@@ -70,7 +70,7 @@
         transform: scale(1.05);
       }
 
-      @media (min-width: 768px) {
+      @media (--medium) {
         width: 250px;
         height: 150px;
         font-size: 7rem;
@@ -94,7 +94,7 @@
         transform: scale(1.05);
       }
 
-      @media (min-width: 768px) {
+      @media (--medium) {
         width: 250px;
         height: 150px;
         font-size: 7rem;
@@ -116,7 +116,7 @@
       animation-name: fadeOut;
       animation-iteration-count: infinite;
 
-      @media (min-width: 768px) {
+      @media (--medium) {
         width: 400px;
         top: 50px;
         font-size: 1rem;
@@ -139,7 +139,7 @@
       font-size: 1rem;
       margin: auto;
 
-      @media (min-width: 768px) {
+      @media (--medium) {
         width: 400px;
       }
     }

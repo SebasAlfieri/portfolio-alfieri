@@ -1,13 +1,26 @@
 'use client';
-import React from 'react';
-import { Header, Footer, Contact } from '@/components';
+import React, { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import { Header, Footer, Contact, Welcome } from '@/components';
 
 export default function Home() {
+  const [animationData, setAnimationData] = useState(null);
+
+  const handleAnimationComplete = (data: any) => {
+    setAnimationData(data);
+  };
+
   return (
     <main>
-      <Header />
-      <Contact />
-      <Footer />
+      {animationData ? (
+        <>
+          <Header />
+          {/* <Contact /> */}
+          {/* <Footer /> */}
+        </>
+      ) : (
+        <Welcome onAnimationComplete={handleAnimationComplete} />
+      )}
     </main>
   );
 }
