@@ -11,7 +11,7 @@ export default function Welcome({ onAnimationComplete }: WelcomeProps) {
 
   useEffect(() => {
     const animateWelcome = async () => {
-      await new Promise((resolve) => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 10000));
 
       setAnimationComplete(true);
       onAnimationComplete('Datos que quieres pasar a Home');
