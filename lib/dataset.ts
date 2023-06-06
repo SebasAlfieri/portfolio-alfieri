@@ -31,100 +31,96 @@ export const dataset: DataSetType = {
   ],
   Projects: [
     {
-      title: 'Huggies Freelance',
+      title: "Levi's 501",
       img: '/images/levis.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
-      description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+      link: 'https://levismx501.withspotify.com/',
+      description: `A Levi's 501 webpage telling their story related with music in commemoration of it's 150's birthday`,
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '2',
+      title: 'Cornetto',
       img: '/images/cornetto.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
-      description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+      link: 'https://cornetto.enspotify.com/',
+      description: 'Cornetto ad campaign working with spotify. Participate for a prize!',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '3',
+      title: 'VGLY',
       img: '/images/vgly.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://vgly.withspotify.com/',
+
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        "Vgly adverticing it's release with spotify. Find out how c@brÓN you are and share your results!",
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '4',
+      title: 'Bacardí',
       img: '/images/bacardi.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://casabacardi.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'Bacardí ad campaign working with spotify. Find out which festival suits your tastes!',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '5',
+      title: 'Chardonnay',
       img: '/images/chardonnay.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
-      description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+      link: 'https://www.chardonnaybajamar.com/',
+      description: 'Residential landing page México',
+      languages: 'Metros2 Digital'
     },
     {
-      title: '6',
+      title: 'Hacienda Calafia',
       img: '/images/calafia.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
-      description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+      link: 'https://www.haciendacalafia.com/',
+      description: 'Residential landing page México',
+      languages: 'Metros2 Digital'
     },
     {
-      title: 'Huggies Freelance',
+      title: 'San Marino - Sorrento',
       img: '/images/sanmarino.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
-      description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+      link: 'https://www.bajasanmarino.com/',
+      description: 'Residential landing page México',
+      languages: 'Metros2 Digital'
     },
     {
-      title: '2',
+      title: 'Jhonnie Walker',
       img: '/images/jhonnie.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://jwmixsonglogy.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'A Jhonnie Walker ad campaign with spotify. Create a spotify playlist and mix it!',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '3',
+      title: 'Carlos Rivera with Spotify',
       img: '/images/rivera.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://carlosrivera.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'A Carlos Rivera advertising his world tour and doing a raffle for free tickets (Currently over).',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '4',
+      title: 'Axe próxima cita',
       img: '/images/axemx.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://axe.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'Mexican Axe ad campaign. Get a spotify playlist that will help you in you in your next date!',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '5',
+      title: 'Axe LollaPalooza',
       img: '/images/axechile.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://axelolla.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
+      languages: 'Contenidos Digitales'
     },
     {
-      title: '6',
+      title: 'Doritos LollaPalooza',
       img: '/images/doritos.jpg',
-      link: 'https://mixeatuhumor.withspotify.com/login',
+      link: 'https://doritos.withspotify.com/',
       description:
-        'A freelacer for Huggies where i worked as front end developer together with a back end developer',
-      languages: 'React Js - Next Js'
+        'A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
+      languages: 'Contenidos Digitales'
     }
   ]
 };
