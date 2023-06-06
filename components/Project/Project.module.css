@@ -69,9 +69,12 @@
 .title {
   margin-top: 20px;
   color: #242021;
-  width: fit-content;
-  height: fit-content;
   font-weight: 600;
   position: absolute;
   z-index: 0;
+  width: 140px;
+
+  @media (--large) {
+    width: fit-content;
+  }
 }

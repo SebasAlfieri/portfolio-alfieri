@@ -33,7 +33,14 @@ const Project: FC<ProjectProps> = ({ title, link, description, languages, img })
 
         <Image width={300} height={300} alt={'project link'} src={img} />
       </motion.article>
-      {isMobile && <div className={s.title}>{title}</div>}
+      {isMobile && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1, transition: { duration: 0.5, delay: 0.5 } }}
+          className={s.title}>
+          {title}
+        </motion.div>
+      )}
       <AnimatePresence>
         {isHovered && !isMobile && (
           <motion.div
