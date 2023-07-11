@@ -1,24 +1,37 @@
 import React, { useState } from 'react';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { IoMdMail } from 'react-icons/io';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
+import useIsMobile from '@/hooks/use-is-mobile';
 import s from './Contact.module.css';
 
 function Contact() {
+  const isMobile = useIsMobile();
   const [isHovering, setIsHovering] = useState(false);
   const [clicked, setClicked] = useState(false);
 
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
-
-  const handleMouseOut = () => {
-    setIsHovering(false);
+  const handleMail = () => {
+    if (isMobile) {
+      enviarCorreoGmail();
+    } else {
+      handleClick();
+    }
   };
 
   const handleClick = () => {
     setClicked(true);
+
+    setTimeout(() => {
+      setClicked(false);
+    }, 3000);
     navigator.clipboard.writeText('sebasalfieri@gmail.com');
+  };
+
+  const enviarCorreoGmail = () => {
+    const correo = 'sebasalfieri@gmail.com';
+
+    const url = `mailto:${correo}`;
+    window.open(url);
   };
 
   return (
@@ -26,29 +39,28 @@ function Contact() {
       <h2 id="contact" className={s.mainContainer__contactTitle}>
         Contact me
       </h2>
-      <div className={s.mainContainer__contactContainer}>
-        {clicked && (
-          <div className={s.mainContainer__contactContainer__clickContainer}>
-            Copied "sebasalfieri@gmail.com" to clipboard!
-          </div>
-        )}
-      </div>
-      <div className={s.mainContainer__popupsContainer}>
-        {isHovering && (
-          <div className={s.mainContainer__popupsContainer__hoverContainer}>
-            Click to copy e-mail to clipboard
-          </div>
-        )}
-      </div>
+
       <motion.div
         className={s.mainContainer__contactContainer}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}>
+        <AnimatePresence>
+          {clicked && (
+            <motion.div
+              className={s.mainContainer__contactContainer__clickContainer}
+              initial={{ bottom: '-100px' }}
+              animate={{ opacity: 1, bottom: '50px', transition: { duration: 0.7 } }}
+              exit={{ bottom: '-100px' }}>
+              Copied "sebasalfieri@gmail.com" to clipboard!
+            </motion.div>
+          )}
+        </AnimatePresence>
+
         <div className={s.mainContainer__contactContainer__contactBoxContainer}>
           <motion.a
             className={s.mainContainer__contactContainer__contactBoxContainer__contactBox}
-            onClick={handleClick}
+            onClick={handleMail}
             whileHover={{ scale: 1.05 }}>
             <IoMdMail />
           </motion.a>

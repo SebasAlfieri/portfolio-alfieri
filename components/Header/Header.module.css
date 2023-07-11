@@ -5,23 +5,29 @@
   align-items: center;
   width: 100%;
   justify-content: center;
+  min-height: 100vh;
+
+  @media (--large) {
+    margin-bottom: 70px;
+  }
 
   .headerItemsContainer {
     height: fit-content;
     height: 100vh;
-    padding: 10% 5%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 
     @media (--small) {
-      height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
 
     @media (--large) {
-      height: 100vh;
       width: 80%;
-
       padding: unset;
     }
   }

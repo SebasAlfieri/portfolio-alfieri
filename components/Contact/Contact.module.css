@@ -29,12 +29,13 @@
     width: 200px;
     height: 100px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 110px;
     margin-bottom: 50px;
 
     @media (--medium) {
-      width: 400px;
+      width: fit-content;
       height: 200px;
+      margin-top: 60px;
     }
 
     &__contactBoxContainer {
@@ -102,14 +103,19 @@
     }
 
     &__clickContainer {
-      position: relative;
+      position: fixed;
       text-align: center;
-      top: 190px;
+      bottom: 0px;
+      left: 50%;
+      right: 50%;
+      bottom: -50px;
+      transform: translateX(-50%);
       background-color: #242021;
       color: white;
       padding: 5px;
       border-radius: 25px;
       width: 300px;
+      height: fit-content;
       font-size: 0.8rem;
       margin: auto;
       animation-duration: 3s;
@@ -118,7 +124,6 @@
 
       @media (--medium) {
         width: 400px;
-        top: 50px;
         font-size: 1rem;
       }
     }
