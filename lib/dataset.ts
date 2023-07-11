@@ -31,6 +31,20 @@ export const dataset: DataSetType = {
   ],
   Projects: [
     {
+      title: 'Mercado Libre México with NBA',
+      img: '/images/nba.jpg',
+      link: 'https://mercadolibre-nba.withspotify.com/',
+      description: `A promotional page for Mercado Libre México in collab with NBA and Spotify`,
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'MasterCard with Estoril (Mobile)',
+      img: '/images/mastercard.jpg',
+      link: 'https://pricelesswithestoril.withspotify.com/',
+      description: `A MasterCard's restaurant mobile page for clients to choose their food depending on their music taste.`,
+      languages: 'Contenidos Digitales'
+    },
+    {
       title: "Levi's 501",
       img: '/images/levis.jpg',
       link: 'https://levismx501.withspotify.com/',
