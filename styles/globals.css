@@ -18,6 +18,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Box sizing rules */
 *,
 *::before,
