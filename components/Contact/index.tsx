@@ -36,9 +36,17 @@ function Contact() {
 
   return (
     <motion.section className={s.mainContainer}>
-      <h2 id="contact" className={s.mainContainer__contactTitle}>
+      <motion.h2
+        id="contact"
+        className={s.mainContainer__contactTitle}
+        initial={{ opacity: 0 }}
+        whileInView={{
+          opacity: 1,
+          x: 0,
+          transition: { delay: 0.4 }
+        }}>
         Contact me
-      </h2>
+      </motion.h2>
 
       <motion.div
         className={s.mainContainer__contactContainer}

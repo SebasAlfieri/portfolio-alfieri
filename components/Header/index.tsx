@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import s from './Header.module.css';
 import Link from 'next/link';
-import { KnowledgeItem } from '@/components';
+import { KnowledgeItem, ScrollDown } from '@/components';
 import { dataset } from '@/lib/dataset';
 
 const Header = () => {
@@ -102,6 +102,7 @@ const Header = () => {
           ))}
         </motion.div>
       </div>
+      <ScrollDown />
     </motion.header>
   );
 };

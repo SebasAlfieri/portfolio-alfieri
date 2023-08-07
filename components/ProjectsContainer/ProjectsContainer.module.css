@@ -1,50 +1,64 @@
-.mainContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  gap: 20px;
-  padding: 50px 0;
-  margin-bottom: 100px;
-  padding-bottom: 100px;
-  width: 375px;
-
-  @media (--large) {
-    align-items: unset;
-    gap: 70px;
-    flex-direction: row;
-    width: 1000px;
+.container {
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    @media (--medium) {
+      margin-bottom: 100px;
+      justify-content: flex-start;
+      margin-left: 50px;
+    }
   }
+  &__projectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    padding: 50px 0;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    width: 375px;
 
-  @media (--ultraLarge) {
-    gap: 100px;
-    width: 1400px;
-  }
-
-  &__item {
-    height: fit-content;
-    width: fit-content;
-
-    &__itemA {
-      composes: mainContainer__item;
-      margin-top: 70px;
-
-      @media (--large) {
-        margin-top: -100px;
-      }
+    @media (--large) {
+      align-items: unset;
+      gap: 70px;
+      flex-direction: row;
+      width: 1000px;
     }
 
-    &__itemB {
-      composes: mainContainer__item;
-      margin-top: -70px;
-      @media (--large) {
-        margin-top: -50px;
-      }
+    @media (--ultraLarge) {
+      gap: 100px;
+      width: 1400px;
     }
 
-    &__itemC {
-      composes: mainContainer__item;
+    &__item {
+      height: fit-content;
+      width: fit-content;
+
+      &__itemA {
+        composes: container__projectsContainer__item;
+        margin-top: 70px;
+
+        @media (--large) {
+          margin-top: -100px;
+        }
+      }
+
+      &__itemB {
+        composes: container__projectsContainer__item;
+        margin-top: -70px;
+        @media (--large) {
+          margin-top: -50px;
+        }
+      }
+
+      &__itemC {
+        composes: container__projectsContainer__item;
+      }
     }
   }
 }
