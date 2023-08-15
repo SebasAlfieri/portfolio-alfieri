@@ -51,7 +51,7 @@ const Header = () => {
             className={s.headerSubtitle}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { delay: 3.2, duration: 1 } }}>
-            I'm a junior developer highly motivated to create and grow! <br />
+            I'm a developer highly motivated to create and grow! <br />
             Currently working at:
             <br />
             <Link
