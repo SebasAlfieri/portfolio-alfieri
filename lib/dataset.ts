@@ -31,6 +31,60 @@ export const dataset: DataSetType = {
   ],
   Projects: [
     {
+      title: 'Switchea',
+      img: '/images/switchea.jpg',
+      link: 'https://switchea.enspotify.com/',
+      description:
+        'App where users selects a playlist they own then mix it and create a new playlist depending on their favorite snack',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Mealtify MOBILE',
+      img: '/images/mealtify.jpg',
+      link: 'https://mealtify.enspotify.com/',
+      description:
+        'App developed to be used at Spotify events where people get recommended meals depending on their music taste',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Mocktailfy MOBILE',
+      img: '/images/mocktailfy.jpg',
+      link: 'https://mocktailfy.enspotify.com/',
+      description:
+        'App developed to be used at Spotify events where people get recommended mocktails depending on their music taste',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Mixx Bunker',
+      img: '/images/bunker.jpg',
+      link: 'https://mixxbunker.enspotify.com/',
+      description:
+        'App developed to be used at an event where people analyzed their music then a giant screen displayed "/dashboard" comparing everyone music tastes',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Smirnoff RBD',
+      img: '/images/smirnoff.jpg',
+      link: 'https://smirnoffrbd.enspotify.com/',
+      description: 'Smirnoff advertising page recommending drinks depending on users music taste',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Terralago',
+      img: '/images/terralago.jpg',
+      link: 'https://dev-terralago-mx.vercel.app/',
+      description: 'Residential landing page México',
+      languages: 'Metros2 Digital'
+    },
+    {
+      title: 'Axe LollaPalooza',
+      img: '/images/axechile.jpg',
+      link: 'https://axelolla.withspotify.com/',
+      description:
+        'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
+      languages: 'Contenidos Digitales'
+    },
+    {
       title: 'Mercado Libre México with NBA',
       img: '/images/nba.jpg',
       link: 'https://mercadolibre-nba.withspotify.com/',
@@ -102,14 +156,6 @@ export const dataset: DataSetType = {
       link: 'https://jwmixsonglogy.withspotify.com/',
       description:
         'A Jhonnie Walker ad campaign with spotify. Create a spotify playlist and mix it!',
-      languages: 'Contenidos Digitales'
-    },
-    {
-      title: 'Carlos Rivera with Spotify',
-      img: '/images/rivera.jpg',
-      link: 'https://carlosrivera.withspotify.com/',
-      description:
-        'A Carlos Rivera advertising his world tour and doing a raffle for free tickets (Currently over).',
       languages: 'Contenidos Digitales'
     },
     {
