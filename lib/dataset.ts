@@ -40,18 +40,18 @@ export const dataset: DataSetType = {
     },
     {
       title: 'Mealtify MOBILE',
-      img: '/images/mealtify.jpg',
+      img: '/images/mealtify2.jpg',
       link: 'https://mealtify.enspotify.com/',
       description:
-        'App developed to be used at Spotify events where people get recommended meals depending on their music taste',
+        'Exusively Mobile App developed to be used at Spotify events where people get recommended meals depending on their music taste',
       languages: 'Contenidos Digitales'
     },
     {
       title: 'Mocktailfy MOBILE',
-      img: '/images/mocktailfy.jpg',
+      img: '/images/mocktailfy2.jpg',
       link: 'https://mocktailfy.enspotify.com/',
       description:
-        'App developed to be used at Spotify events where people get recommended mocktails depending on their music taste',
+        'Exusively Mobile App developed to be used at Spotify events where people get recommended mocktails depending on their music taste',
       languages: 'Contenidos Digitales'
     },
     {
