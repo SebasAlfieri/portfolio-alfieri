@@ -24,7 +24,7 @@ const Project: FC<ProjectProps> = ({ title, link, description, languages, img })
         whileInView={{
           opacity: 1,
           x: 0,
-          transition: { delay: 0.4 }
+          transition: { delay: 0.2 }
         }}>
         <div className={s.mainContainer__projectDescription}>
           {description}

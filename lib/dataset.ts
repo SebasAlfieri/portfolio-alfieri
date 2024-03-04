@@ -63,27 +63,20 @@ export const dataset: DataSetType = {
       languages: 'Contenidos Digitales'
     },
     {
-      title: 'Smirnoff RBD',
-      img: '/images/smirnoff.jpg',
-      link: 'https://smirnoffrbd.enspotify.com/',
-      description: 'Smirnoff advertising page recommending drinks depending on users music taste',
-      languages: 'Contenidos Digitales'
-    },
-    {
       title: 'Terralago',
       img: '/images/terralago.jpg',
       link: 'https://dev-terralago-mx.vercel.app/',
       description: 'Residential landing page México',
       languages: 'Metros2 Digital'
     },
-    {
-      title: 'Axe LollaPalooza',
-      img: '/images/axechile.jpg',
-      link: 'https://axelolla.withspotify.com/',
-      description:
-        'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
-      languages: 'Contenidos Digitales'
-    },
+    // {
+    //   title: 'Axe LollaPalooza',
+    //   img: '/images/axechile.jpg',
+    //   link: 'https://axelolla.withspotify.com/',
+    //   description:
+    //     'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'Mercado Libre México with NBA',
       img: '/images/nba.jpg',
@@ -121,14 +114,14 @@ export const dataset: DataSetType = {
         "Vgly adverticing it's release with spotify. Find out how c@brÓN you are and share your results!",
       languages: 'Contenidos Digitales'
     },
-    {
-      title: 'Bacardí',
-      img: '/images/bacardi.jpg',
-      link: 'https://casabacardi.withspotify.com/',
-      description:
-        'Bacardí ad campaign working with spotify. Find out which festival suits your tastes!',
-      languages: 'Contenidos Digitales'
-    },
+    // {
+    //   title: 'Bacardí',
+    //   img: '/images/bacardi.jpg',
+    //   link: 'https://casabacardi.withspotify.com/',
+    //   description:
+    //     'Bacardí ad campaign working with spotify. Find out which festival suits your tastes!',
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'Chardonnay',
       img: '/images/chardonnay.jpg',
@@ -167,19 +160,11 @@ export const dataset: DataSetType = {
       languages: 'Contenidos Digitales'
     },
     {
-      title: 'Axe LollaPalooza',
-      img: '/images/axechile.jpg',
-      link: 'https://axelolla.withspotify.com/',
-      description:
-        'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
-      languages: 'Contenidos Digitales'
-    },
-    {
       title: 'Doritos LollaPalooza',
       img: '/images/doritos.jpg',
       link: 'https://doritos.withspotify.com/',
       description:
-        'A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
+        'My first Contenidos digitales project! A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
       languages: 'Contenidos Digitales'
     }
   ]

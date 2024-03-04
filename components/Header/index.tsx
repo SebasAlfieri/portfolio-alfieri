@@ -13,7 +13,7 @@ const Header = () => {
       controls.start((i) => ({
         opacity: 1,
         y: 0,
-        transition: { delay: i * 0.2 }
+        transition: { delay: i * 0.1 }
       }));
     }, 1000);
 
@@ -50,7 +50,7 @@ const Header = () => {
           <motion.h3
             className={s.headerSubtitle}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transition: { delay: 3.2, duration: 1 } }}>
+            animate={{ opacity: 1, transition: { delay: 2.2, duration: 1 } }}>
             I'm a front end developer highly motivated to create and grow! <br />
             Currently working at:
             <br />
@@ -71,7 +71,7 @@ const Header = () => {
             animate={{
               opacity: 1,
               scale: 1,
-              transition: { duration: 1, delay: 5, type: 'spring', velocity: 100, bounce: 10 }
+              transition: { duration: 1, delay: 4, type: 'spring', velocity: 100, bounce: 10 }
             }}>
             <motion.a className={s.headerContact} href="#contact">
               Contact me
@@ -88,7 +88,7 @@ const Header = () => {
               exit={{ opacity: 0, y: 50 }}
               transition={{
                 duration: 3,
-                delay: index * 0.2 + 4,
+                delay: index * 0.2 + 3,
                 type: 'spring',
                 velocity: 100,
                 bounce: 10
