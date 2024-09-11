@@ -30,45 +30,30 @@ export const dataset: DataSetType = {
     { title: 'TypeScript', background: '#2E72BC', color: 'white' }
   ],
   Projects: [
-    {
-      title: 'Switchea',
-      img: '/images/switchea.jpg',
-      link: 'https://switchea.enspotify.com/',
-      description:
-        'App where users selects a playlist they own then mix it and create a new playlist depending on their favorite snack',
-      languages: 'Contenidos Digitales'
-    },
-    {
-      title: 'Mealtify MOBILE',
-      img: '/images/mealtify2.jpg',
-      link: 'https://mealtify.enspotify.com/',
-      description:
-        'Exusively Mobile App developed to be used at Spotify events where people get recommended meals depending on their music taste',
-      languages: 'Contenidos Digitales'
-    },
-    {
-      title: 'Mocktailfy MOBILE',
-      img: '/images/mocktailfy2.jpg',
-      link: 'https://mocktailfy.enspotify.com/',
-      description:
-        'Exusively Mobile App developed to be used at Spotify events where people get recommended mocktails depending on their music taste',
-      languages: 'Contenidos Digitales'
-    },
-    {
-      title: 'Mixx Bunker',
-      img: '/images/bunker.jpg',
-      link: 'https://mixxbunker.enspotify.com/',
-      description:
-        'App developed to be used at an event where people analyzed their music then a giant screen displayed "/dashboard" comparing everyone music tastes',
-      languages: 'Contenidos Digitales'
-    },
-    {
-      title: 'Smirnoff RBD',
-      img: '/images/smirnoff.jpg',
-      link: 'https://smirnoffrbd.enspotify.com/',
-      description: 'Smirnoff advertising page recommending drinks depending on users music taste',
-      languages: 'Contenidos Digitales'
-    },
+    // {
+    //   title: 'Switchea',
+    //   img: '/images/switchea.jpg',
+    //   link: 'https://switchea.enspotify.com/',
+    //   description:
+    //     'App where users selects a playlist they own then mix it and create a new playlist depending on their favorite snack',
+    //   languages: 'Contenidos Digitales'
+    // },
+
+    // {
+    //   title: 'Mixx Bunker',
+    //   img: '/images/bunker.jpg',
+    //   link: 'https://mixxbunker.enspotify.com/',
+    //   description:
+    //     'App developed to be used at an event where people analyzed their music then a giant screen displayed "/dashboard" comparing everyone music tastes',
+    //   languages: 'Contenidos Digitales'
+    // },
+    // {
+    //   title: 'Smirnoff RBD',
+    //   img: '/images/smirnoff.jpg',
+    //   link: 'https://smirnoffrbd.enspotify.com/',
+    //   description: 'Smirnoff advertising page recommending drinks depending on users music taste',
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'Terralago',
       img: '/images/terralago.jpg',
@@ -84,13 +69,13 @@ export const dataset: DataSetType = {
         'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
       languages: 'Contenidos Digitales'
     },
-    {
-      title: 'Mercado Libre México with NBA',
-      img: '/images/nba.jpg',
-      link: 'https://mercadolibre-nba.withspotify.com/',
-      description: `A promotional page for Mercado Libre México in collab with NBA and Spotify`,
-      languages: 'Contenidos Digitales'
-    },
+    // {
+    //   title: 'Mercado Libre México with NBA',
+    //   img: '/images/nba.jpg',
+    //   link: 'https://mercadolibre-nba.withspotify.com/',
+    //   description: `A promotional page for Mercado Libre México in collab with NBA and Spotify`,
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'MasterCard with Estoril (Mobile)',
       img: '/images/mastercard.jpg',
@@ -112,15 +97,15 @@ export const dataset: DataSetType = {
       description: 'Cornetto ad campaign working with spotify. Participate for a prize!',
       languages: 'Contenidos Digitales'
     },
-    {
-      title: 'VGLY',
-      img: '/images/vgly.jpg',
-      link: 'https://vgly.withspotify.com/',
+    // {
+    //   title: 'VGLY',
+    //   img: '/images/vgly.jpg',
+    //   link: 'https://vgly.withspotify.com/',
 
-      description:
-        "Vgly adverticing it's release with spotify. Find out how c@brÓN you are and share your results!",
-      languages: 'Contenidos Digitales'
-    },
+    //   description:
+    //     "Vgly adverticing it's release with spotify. Find out how c@brÓN you are and share your results!",
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'Bacardí',
       img: '/images/bacardi.jpg',
@@ -158,14 +143,14 @@ export const dataset: DataSetType = {
         'A Jhonnie Walker ad campaign with spotify. Create a spotify playlist and mix it!',
       languages: 'Contenidos Digitales'
     },
-    {
-      title: 'Axe próxima cita',
-      img: '/images/axemx.jpg',
-      link: 'https://axe.withspotify.com/',
-      description:
-        'Mexican Axe ad campaign. Get a spotify playlist that will help you in you in your next date!',
-      languages: 'Contenidos Digitales'
-    },
+    // {
+    //   title: 'Axe próxima cita',
+    //   img: '/images/axemx.jpg',
+    //   link: 'https://axe.withspotify.com/',
+    //   description:
+    //     'Mexican Axe ad campaign. Get a spotify playlist that will help you in you in your next date!',
+    //   languages: 'Contenidos Digitales'
+    // },
     {
       title: 'Axe LollaPalooza',
       img: '/images/axechile.jpg',
@@ -180,6 +165,22 @@ export const dataset: DataSetType = {
       link: 'https://doritos.withspotify.com/',
       description:
         'A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Mealtify MOBILE',
+      img: '/images/mealtify2.jpg',
+      link: 'https://mealtify.enspotify.com/',
+      description:
+        'Exusively Mobile App developed to be used at Spotify events where people get recommended meals depending on their music taste',
+      languages: 'Contenidos Digitales'
+    },
+    {
+      title: 'Mocktailfy MOBILE',
+      img: '/images/mocktailfy2.jpg',
+      link: 'https://mocktailfy.enspotify.com/',
+      description:
+        'Exusively Mobile App developed to be used at Spotify events where people get recommended mocktails depending on their music taste',
       languages: 'Contenidos Digitales'
     }
   ]
