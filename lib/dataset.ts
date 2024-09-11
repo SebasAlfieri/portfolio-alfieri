@@ -152,19 +152,11 @@ export const dataset: DataSetType = {
     //   languages: 'Contenidos Digitales'
     // },
     {
-      title: 'Axe LollaPalooza',
-      img: '/images/axechile.jpg',
-      link: 'https://axelolla.withspotify.com/',
-      description:
-        'Chilean Axe ad campaign with Spotify. Know which LollaPalooza days suits you the best and share it!',
-      languages: 'Contenidos Digitales'
-    },
-    {
       title: 'Doritos LollaPalooza',
       img: '/images/doritos.jpg',
       link: 'https://doritos.withspotify.com/',
       description:
-        'A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
+        'My first Contenidos digitales project! A Doritos ad campaign with Spotify. Discover which would be your dream Lollapalooza line up according to your musical tastes and share it!',
       languages: 'Contenidos Digitales'
     },
     {
